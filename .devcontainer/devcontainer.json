@@ -8,5 +8,9 @@
     "forwardPorts": [
         8086,
         3000
+    ],
+    "runArgs": [
+        "--cap-add=NET_ADMIN",
+        "--cap-add=NET_RAW"
     ]
 }

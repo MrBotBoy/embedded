@@ -10,3 +10,4 @@ tracing-subscriber = "0.3"
 config = "0.15"
 clap = "4.5.29"
 tokio = { version = "1.43", features = ["full"] }
+#socketcan = "3"
